@@ -7,3 +7,7 @@ def turn_count(board)
   board.each{|turn| turn=="X" || turn=="O"? count+=1:}
   count
 end
+
+board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+
+turn_count(board)
