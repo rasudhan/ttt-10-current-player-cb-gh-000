@@ -11,3 +11,6 @@ end
 board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 turn_count(board)
+
+brothers = ["Tim", "Tom", "Jim"]
+brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
