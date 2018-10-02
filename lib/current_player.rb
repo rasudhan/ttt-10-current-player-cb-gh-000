@@ -5,6 +5,7 @@ end
 def turn_count(board)
   count=5
   puts board
+  board.each{|token| puts "#{token}"}
   count
 end
 
