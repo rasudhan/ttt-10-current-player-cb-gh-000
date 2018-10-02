@@ -4,7 +4,7 @@ end
 
 def turn_count(board)
   count=5
-
+  puts board
   count
 end
 
